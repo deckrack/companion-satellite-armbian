@@ -6,13 +6,13 @@ on:
       satellite-build:
         type: string
         description: Companion Version
-        default: 'v1.9.1'
+        default: 'v1.9.3'
         required: true
 
       armbian-board:
         type: choice
         description: 'Board'
-        default: 'orangepizero3'
+        default: 'rockpi-s'
         options:
         - aml-a311d-cc
         - aml-s905d3-cc
