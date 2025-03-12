@@ -12,7 +12,7 @@ on:
       armbian-board:
         type: choice
         description: 'Board'
-        default: 'orangepizero3'
+        default: 'rockpi-s'
         options:
         - aml-a311d-cc
         - aml-s905d3-cc
